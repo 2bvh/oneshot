@@ -17,63 +17,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="top-container">
-      <header>
-        <div class="logo-container">
-          <a href="#" class="logo-link">
-            <img
-              src="https://static1.squarespace.com/static/55d4bb27e4b07a483c70feea/t/5d5d491f1fe2930001cc3b96/1604329440469/?format=1500w"
-              alt="Oneshot Media Logo"
-              class="logo"
-            />
-          </a>
-        </div>
-        <nav class="navbar">
-          <button class="navbar-toggle"><i class="fas fa-bars"></i></button>
-          <ul class="nav-links">
-            <button class="navbar-close"><i class="fas fa-times"></i></button>
-            <li class="nav-item">
-              <a href="#" class="nav-link">what is oneshot?</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">pricing</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">gallery</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">team</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">faq</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">connect</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link" id="clientportal"
-                >clientportal login</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <section class="hero">
-        <div class="color-overlay"></div>
-        <div class="hero-img-container">
-          <img
-            src="https://images.squarespace-cdn.com/content/v1/55d4bb27e4b07a483c70feea/1581966626631-DPY5MDI4H17UFAZ6ICBV/ke17ZwdGBToddI8pDm48kL1JskOfCAWzsz2n9srxq9J7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mhydAgiKdIfeAoxVgE7c7pKrBF4dUolu_9oetKtpKrom3wq0E29XB4uUNZUDJsvAg/5.jpg?format=2500w"
-            alt=""
-            class="hero-img"
-          />
-        </div>
-        <div class="hero-copy-container">
-          <h2 class="hero-title">You need real estate photos.</h2>
-          <h2 class="hero-title">We can help.</h2>
-          <a href="#" class="hero-button">here's how we do it...</a>
-        </div>
-      </section>
-    </div>
+    <%- include('partials/header') -%>
     <main class="main-container">
       <section class="product-sec">
         <a href="#" class="product-link">matterport 3d tours</a>
@@ -232,30 +176,7 @@
         <p class="jack-contact">(612)799-0068 jack@oneshot.media</p>
       </section>
     </main>
-    <footer>
-      <div class="social-icons">
-        <a href="" class="social-link">
-          <span class="fab fa-facebook-f"></span>
-        </a>
-        <a href="" class="social-link">
-          <span class="fab fa-linkedin-in"></span>
-        </a>
-        <a href="" class="social-link">
-          <span class="fab fa-instagram"></span>
-        </a>
-      </div>
-      <ul class="footer-links">
-        <a href="" class="footer-link">
-          <li>residential clients</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>multi-family clients</li>
-        </a>
-        <a href="" class="footer-link">
-          <li>retail clients</li>
-        </a>
-      </ul>
-    </footer>
+   <%- include('partials/footer') -%>
   </body>
-  <script src="app.js"></script>
+  <script src="js/header.js"></script>
 </html>
